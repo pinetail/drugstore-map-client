@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="list_category">
+    <item>スギ薬局</item>
+    <item>ツルハドラッグ</item>
+    <item>サンドラッグ</item>
+    <item>キリン堂</item>
+    <item>ダイコクドラッグ</item>
+    <item>コクミン</item>
+    <item>ミドリ薬品</item>
+  </string-array>
+  <string-array name="list_category_key">
+    <item>kirindo</item>
+    <item>kokumin</item>
+    <item>sundrug</item>
+    <item>sugi</item>
+    <item>daikoku</item>
+    <item>tsuruha</item>
+    <item>matsukiyo</item>
+    <item>midoriyakuhin</item>
+  </string-array>
+  <string-array name="list_category_name">
+    <item>キリン堂</item>
+    <item>コクミン</item>
+    <item>サンドラッグ</item>
+    <item>スギ薬局</item>
+    <item>ダイコクドラッグ</item>
+    <item>ツルハドラッグ</item>
+    <item>マツモトキヨシ</item>
+    <item>ミドリ薬品</item>
+  </string-array>
+</resources>

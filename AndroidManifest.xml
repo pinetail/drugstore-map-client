@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jp.pinetail.android.drugstore_map"
+      android:installLocation="preferExternal"
+      android:versionCode="1"
+      android:versionName="1.0.0">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />      
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+                 android:debuggable="false">
+        <meta-data android:name="Adlantis_Publisher_ID" android:value="NjAyOA%3D%3D%0A" />
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait"
+                  android:theme="@android:style/Theme.Black.NoTitleBar"
+                  android:configChanges="orientation|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <uses-library android:name="com.google.android.maps" />
+        <activity android:name=".ListActivity"
+              android:label="detail"
+              android:screenOrientation="portrait"
+              android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".DetailTabActivity"
+              android:label="detail"
+              android:screenOrientation="portrait"
+              android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".CommentsActivity"
+              android:label="detail"
+              android:screenOrientation="portrait"
+              android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".DetailActivity"
+              android:label="detail"
+              android:screenOrientation="portrait"
+              android:theme="@android:style/Theme.Black.NoTitleBar" />
+        <activity android:name=".SettingsActivity"
+              android:label="設定" />
+        <activity android:name=".SettingsCategoryActivity"
+              android:label="カテゴリ" />
+        <activity android:name=".SettingsWirelessActivity"
+              android:label="無線LAN" />
+
+    </application>
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-adk android:targetSdkVersion="8" />
+</manifest>

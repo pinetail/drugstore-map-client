@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:title="カテゴリ" android:key="category">
+    <CheckBoxPreference
+      android:key="kirindo"
+      android:title="キリン堂"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="kokumin"
+      android:title="コクミン"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="sundrug"
+      android:title="サンドラッグ"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="sugi"
+      android:title="スギ薬局"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="daikoku"
+      android:title="ダイコクドラッグ"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="tsuruha"
+      android:title="ツルハドラッグ"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="matsukiyo"
+      android:title="マツモトキヨシ"
+      android:defaultValue="true" />
+    <CheckBoxPreference
+      android:key="midoriyakuhin"
+      android:title="ミドリ薬品"
+      android:defaultValue="true" />
+</PreferenceScreen>

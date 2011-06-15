@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:layout_width="fill_parent" android:background="@drawable/tile_bg">
+    <LinearLayout
+    android:id="@+id/LinearLayout11"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:layout_alignParentTop="true" android:background="@drawable/button_bar">
+    <LinearLayout
+      android:id="@+id/LinearLayout04"
+      android:layout_weight="1" android:layout_height="fill_parent" android:gravity="center_vertical" android:layout_width="fill_parent">
+<LinearLayout android:id="@+id/LinearLayout18" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="left|center_vertical" android:layout_weight="1">
+    <Button android:layout_marginLeft="10dip" android:textColor="@color/white" android:text="戻る" android:id="@+id/btn_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/btn_back_states"></Button>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout19" android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="right|center_vertical" android:layout_weight="1">
+
+</LinearLayout>
+</LinearLayout>
+  </LinearLayout>
+<ScrollView
+    android:id="@+id/ScrollView01"
+    android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/LinearLayout11" android:layout_above="@+id/LinearLayout02">
+<LinearLayout
+  android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:padding="10dip">
+<LinearLayout android:id="@+id/LinearLayout08" android:layout_height="wrap_content" android:orientation="vertical" android:layout_width="fill_parent" android:background="@drawable/border" android:layout_marginTop="10dip" android:paddingBottom="10dip" android:paddingLeft="20dip" android:paddingRight="20dip" android:paddingTop="10dip">
+    <LinearLayout android:id="@+id/LinearLayout02" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_vertical">
+        <ImageView android:src="@drawable/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/img_category"></ImageView>
+        <TextView android:textColor="@color/black" android:layout_height="wrap_content" android:paddingLeft="10dip" android:layout_width="fill_parent" android:id="@+id/txt_name" android:text="TextView"></TextView>
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:padding="20dip" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:id="@+id/linearLayout1" android:background="@drawable/border" android:layout_width="fill_parent">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout09" android:layout_width="wrap_content">
+        <TextView android:paddingBottom="3dip" android:layout_height="fill_parent" android:paddingRight="10dip" android:text="住所" android:background="@drawable/border_label" android:gravity="center_vertical|center" android:paddingTop="3dip" android:id="@+id/address" android:textColor="@color/white" android:paddingLeft="10dip" android:layout_width="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:paddingBottom="5dip" android:id="@+id/LinearLayout10" android:paddingTop="5dip" android:layout_width="wrap_content">
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:id="@+id/txt_address" android:textColor="@color/black" android:paddingLeft="10dip" android:layout_width="fill_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout01" android:layout_width="wrap_content">
+        <TextView android:paddingBottom="3dip" android:layout_height="fill_parent" android:paddingRight="10dip" android:text="TEL" android:background="@drawable/border_label" android:gravity="center_vertical|center" android:paddingTop="3dip" android:id="@+id/TextView02" android:textColor="@color/white" android:paddingLeft="10dip" android:layout_width="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:paddingBottom="5dip" android:id="@+id/LinearLayout03" android:paddingTop="5dip" android:layout_width="wrap_content">
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:id="@+id/txt_tel" android:textColor="@color/black" android:paddingLeft="10dip" android:layout_width="fill_parent" android:autoLink="phone"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout12" android:layout_width="wrap_content">
+        <TextView android:paddingBottom="3dip" android:layout_height="wrap_content" android:paddingRight="10dip" android:text="営業時間" android:background="@drawable/border_label" android:paddingTop="3dip" android:id="@+id/label_business_hours" android:textColor="@color/white" android:paddingLeft="10dip" android:layout_width="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:paddingBottom="5dip" android:id="@+id/LinearLayout13" android:paddingTop="5dip" android:layout_width="wrap_content">
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:id="@+id/txt_business_hours" android:textColor="@color/black" android:paddingLeft="10dip" android:layout_width="fill_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout14" android:layout_width="wrap_content">
+        <TextView android:paddingBottom="3dip" android:layout_height="wrap_content" android:paddingRight="10dip" android:text="定休日" android:background="@drawable/border_label" android:paddingTop="3dip" android:id="@+id/date" android:textColor="@color/white" android:paddingLeft="10dip" android:layout_width="wrap_content"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:paddingBottom="5dip" android:id="@+id/LinearLayout15" android:paddingTop="5dip" android:layout_width="fill_parent">
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:id="@+id/txt_holiday" android:textColor="@color/black" android:paddingLeft="10dip" android:layout_width="fill_parent"></TextView>
+    </LinearLayout>
+</LinearLayout>
+<LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:layout_marginTop="10dip" android:background="@drawable/border" android:layout_width="fill_parent" android:paddingBottom="10dip" android:paddingLeft="20dip" android:paddingRight="20dip" android:paddingTop="10dip" android:id="@+id/layout_sale">
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/LinearLayout05" android:layout_width="wrap_content" android:gravity="center_vertical" android:paddingRight="10dip" android:paddingLeft="5dip" android:background="@drawable/border_sale">
+        <ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/sale"></ImageView>
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="セール情報" android:textColor="@color/white"></TextView>
+    </LinearLayout>
+    <LinearLayout android:layout_height="wrap_content" android:paddingBottom="5dip" android:id="@+id/LinearLayout06" android:paddingTop="5dip" android:layout_width="wrap_content">
+        <TableLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/table_sale">
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>
+    
+
+    
+
+  </LinearLayout>
+</ScrollView>
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_alignParentBottom="true" android:background="@drawable/button_bar" android:gravity="center_vertical" android:orientation="horizontal" android:layout_height="wrap_content">
+<LinearLayout android:layout_weight="1" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/layout_route" android:layout_margin="2dip"><ImageView android:layout_width="fill_parent" android:scaleType="center" android:id="@+id/img_route" android:layout_weight="1" android:layout_height="fill_parent" android:src="@drawable/green_flag"></ImageView>
+
+<TextView android:id="@+id/TextView02" android:text="ルート検索" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1" android:textColor="@color/white" android:gravity="center"></TextView></LinearLayout>
+<LinearLayout android:layout_height="wrap_content" android:id="@+id/layout_browser" android:orientation="vertical" android:layout_weight="1" android:layout_width="fill_parent" android:layout_margin="2dip"><ImageView android:id="@+id/img_browser" android:src="@drawable/globe" android:scaleType="center" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="fill_parent"></ImageView><TextView android:id="@+id/TextView01" android:text="ブラウザ" android:gravity="center" android:textColor="@color/white" android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_weight="1"></TextView></LinearLayout>
+
+</LinearLayout>
+</RelativeLayout>
